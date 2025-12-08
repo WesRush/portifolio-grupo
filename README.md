@@ -31,3 +31,24 @@ A estrutura do projeto foi organizada seguindo rigorosamente as regras solicitad
 │   └── style.css     # Estilos personalizados (sobrescrevendo Bootstrap)
 ├── img/              # Imagens dos membros e projetos
 └── js/               # Scripts adicionais (se houver)
+```
+### 2. O Sistema de Grid (3x4)
+Para atender à exigência de 3 colunas por linha e 4 linhas no total dentro da tag ```<main>```, utilizou-se a seguinte lógica matemática do Bootstrap:
+
+* Grid Total: 12 colunas.
+
+* Cálculo: 12 dividido por 3 cards = 4.
+
+
+Desta forma, garantimos visualmente 3 cards por linha em telas médias e grandes, totalizando 12 seções de conteúdo (Projetos, Membros, Serviços e Informações).
+
+### 3. Componentes Bootstrap Utilizados
+* Navbar: Para navegação responsiva no cabeçalho.
+
+* Cards: Para estruturar o conteúdo de forma modular na área principal.
+
+* Buttons: Para chamadas de ação (CTAs) e links.
+
+* Grid System: Para o layout principal.
+
+---
